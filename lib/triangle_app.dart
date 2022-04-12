@@ -9,7 +9,7 @@ String detectTriangle(num sideA, num sideB, num sideC) {
   }
 
   if (sides[0] + sides[1] <= sides[2]) {
-    throw Exception('This is Inequal Triangle');
+    throw Exception('Ini adalah Segitiga Sembarang');
   }
 
   if (sides[0] == sides[1] && sides[0] == sides[2]) {
